@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18181a; /* Dark blue background */
+    color: #5563dd; /* Lighter blue for text */
+  }
+   
+  nav {
+    background-color: #818bc7; /* Medium blue for the navigation background */
+    padding: 10px;
+  }
+   
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff; /* White text for links */
+    font-weight: bold;
+  }
+   
+  nav a:hover {
+    text-decoration: underline;
+  }
+   
+  h1 {
+    color: #383bc0; /* Light blue for headings */
+  }
+   
+  p {
+    line-height: 1.6;
+    margin: 15px;
+  }
+   
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #000000; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+
+main {
+    display: flex;
+}
